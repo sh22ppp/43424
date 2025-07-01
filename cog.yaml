@@ -1,0 +1,11 @@
+build:
+  python_version: "3.10"
+  python_packages:
+    - "torch>=2.4.0"
+    - "diffusers>=0.13.0"
+    - "transformers>=4.48.0"
+    - "accelerate>=0.20.0"
+    - "replicate"
+  gpu: true
+
+predict: "predict.py:Predictor"
